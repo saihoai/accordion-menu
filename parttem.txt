@@ -1,0 +1,3 @@
+d9442f: red
+f7f7f7: gray
+c6c6c6: gray bold

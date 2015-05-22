@@ -1,0 +1,17 @@
+body { background: #f7f7f7; }
+body .container { width: 300px; margin: 100px auto;}
+body .container .list-group a { color: #333; text-decoration: none; }
+body .container .list-group .badge { display: block; background: transparent; color: #333; }
+body .container .list-group .list-group-item:hover:not(.active),
+body .container .list-group .list-group-item .sub li:hover { background: #d9442f; }
+body .container .list-group .list-group-item:hover:not(.active) > a,
+body .container .list-group .list-group-item:hover:not(.active) > .badge,
+body .container .list-group .list-group-item .sub li:hover a { color: #fff; }
+body .container .list-group .list-group-item.active { background: #f7f7f7; border-color: #ddd; padding: 0; }
+body .container .list-group .list-group-item.active > a { padding: 10px 15px; display: block; color: #333; }
+body .container .list-group .list-group-item.active > .badge { margin: 9px 15px; }
+body .container .list-group .list-group-item.active > .sub { border: 1px solid #ddd; border-width: 1px 0 0 0; }
+body .container .list-group .list-group-item.active > .sub li { padding: 10px 15px; border-bottom: 1px solid #ddd }
+body .container .list-group .list-group-item.active > .sub li .glyphicon { margin: 0 10px 0 0; }
+body .container .list-group .list-group-item.active > .sub li:last-child { border-bottom-width: 0; }
+body .container .list-group-item.active > .sub li a { color: #c6c6c6; }
